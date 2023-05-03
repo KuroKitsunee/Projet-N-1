@@ -1,0 +1,151 @@
+header {
+  background-image: url(../Ressources/Mochis-background.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+header h1 {
+  text-align: center;
+  margin-top: 20%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Righteous", cursive;
+  font-size: 100px;
+  font-weight: 900;
+  color: rgb(24, 201, 233);
+  border-radius: 15px;
+}
+
+body {
+  /*------ SECTION 1 - HISTOIRE ------*/
+}
+body .histoire {
+  background-color: pink;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+body .histoire h3, body .histoire p {
+  text-align: center;
+  margin-top: 15%;
+}
+body .histoire .mochi-story {
+  max-width: 70%;
+  height: auto;
+  border-radius: 15px;
+}
+body .histoire h3 {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(13, 109, 173);
+}
+body .histoire p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: small;
+  font-weight: 300;
+}
+
+/*------ SECTION 2 - RECETTE SIGNATURE ------*/
+.signature {
+  text-align: center;
+  background-image: linear-gradient(rgba(226, 188, 195, 0.842), rgba(211, 144, 159, 0.836)), url(../Ressources/Mochi-signature.jpg);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+.signature h3, .signature p {
+  text-align: center;
+  padding-top: 5vh;
+}
+.signature h3 {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(13, 109, 173);
+}
+.signature p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: small;
+  font-weight: 300;
+}
+
+/*------ SECTION 3 - MENU ------*/
+.menu {
+  margin: 20px 0;
+}
+.menu h2, .menu h4 {
+  text-align: center;
+  padding-top: 5%;
+}
+
+h2 {
+  color: rgb(13, 109, 173);
+  padding-bottom: 5%;
+}
+
+p {
+  text-align: center;
+}
+
+.prix {
+  font-weight: 900;
+  text-align: right;
+  color: red;
+}
+
+/*------ SECTION 4 - PHOTOS ------*/
+.carousel-inner {
+  height: 100%;
+}
+.carousel-inner .carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  height: 100%;
+}
+
+/*------ SECTION - BARRE DE DECOUPE ------*/
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: rgb(24, 201, 233);
+  width: 100px;
+  content: "";
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+h3:after {
+  display: block;
+  height: 2px;
+  background-color: rgb(24, 201, 233);
+  width: 100px;
+  content: "";
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/*------ SECTION 4 - CONTACT ------*/
+.contact {
+  background-color: pink;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.contact ul {
+  list-style-type: none;
+}
+.contact .restaurant {
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(26, 25, 25);
+  color: white;
+}
+
+.navbar {
+  background-color: rgba(65, 64, 64, 0);
+}/*# sourceMappingURL=style.css.map */
